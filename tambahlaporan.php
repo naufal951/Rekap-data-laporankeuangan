@@ -8,13 +8,12 @@ if (isset($_POST['simpan'])){
 		alert('Data Berhasil Ditambah')
 		document.location.href='index.php?halaman=laporan'
 		</script>";
-	}else {
-		echo "
-		<script>
-		alert('Data Gagal Ditambah')
-		</script>";
-	}
-}
+	}//else {
+		//echo "
+		//<script>
+		//alert('Data Gagal Ditambah')
+		//</script>";
+	//}
 ?>
 <h2>TAMBAH LAPORAN KEUANGAN BULANAN</h2>
 <hr>
